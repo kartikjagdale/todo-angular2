@@ -1,0 +1,27 @@
+<nav>
+  <span>
+    <a [routerLink]=" ['./home'] ">
+      Home
+    </a>
+  </span>
+  |
+  <span>
+    <a [routerLink]=" ['./detail'] ">
+      Detail
+    </a>
+  </span>
+  |
+  <span>
+    <a [routerLink]=" ['./about'] ">
+      About
+    </a>
+  </span>
+</nav>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <span>Follow us on Twitter: <a [href]="url">@coderaga</a></span>
+</footer>
